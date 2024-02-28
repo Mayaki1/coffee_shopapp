@@ -20,9 +20,9 @@ class _ShopPageState extends State<ShopPage> {
               style: TextStyle(fontSize: 20),
             ),
             const SizedBox(height: 25),
-            Expanded(
-              child: ListView.builder(itemBuilder: (context, index) {}),
-            ),
+            // Expanded(
+            //   // child: ListView.builder(itemBuilder: (context, index) {}),
+            // ),
           ],
         ),
       ),
