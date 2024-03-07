@@ -33,7 +33,7 @@ class _ShopPageState extends State<ShopPage> {
           child: Column(
             children: [
               const Text(
-                "Miva Coffee Shop",
+                "How would you like your coffee??",
                 style: TextStyle(fontSize: 20),
               ),
               const SizedBox(height: 25),
@@ -45,7 +45,7 @@ class _ShopPageState extends State<ShopPage> {
 
                     return CoffeeTile(
                       coffee: eachCoffee,
-                      icon: Icon(Icons.delete),
+                      icon: Icon(Icons.add),
                       onPressed: () => addToCart(eachCoffee),
                     );
                   },
