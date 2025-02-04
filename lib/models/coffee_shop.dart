@@ -23,6 +23,11 @@ class CoffeeShop extends ChangeNotifier {
       price: "#800",
       imagePath: "lib/images/espresso.png",
     ),
+    Coffee(
+      name: 'Long Black',
+      price: "#200",
+      imagePath: "lib/images/black.png",
+    ),
   ];
 
   List<Coffee> _userCart = [];
